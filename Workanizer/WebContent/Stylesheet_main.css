@@ -1,0 +1,269 @@
+@charset "ISO-8859-1";
+
+
+
+/* ========= LAYOUT SECTION ========  */
+body {
+	
+	background-color: rgb(74,74,74);
+	margin: 0px; /*eliminate extra margin space  */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#header {
+	
+	background-color: rgb(74,74,74);
+	margin: 10px; /*eliminate extra margin space  */
+/*	height: 70px; */
+	border-radius: 5px;	
+	text-align: center;
+}
+
+#navbar {
+	
+	background-color: rgb(200,200,200);
+	padding: 5px;
+	margin: 10px; /*eliminate extra margin space  */
+	border-radius: 5px;
+	text-align: center;
+}
+
+.main {
+	 /*Nutzung von class, da die Main Class mehrmals genutzt werden wird  */
+	background-color: rgb(150,150,150);
+	margin: 10px; /*eliminate extra margin space  */
+	min-height: 500px;
+	border-radius: 5px; /* Runde Ecken  */
+	padding: 20px;  /*Space between border and text  */
+	font-size: 100%;
+	text-align: center;
+	display: block;
+	horizontal-align: center;
+	
+}
+
+#footer {
+	
+	background-color: rgb(200,200,200);
+	margin: 10px; /*eliminate extra margin space  */
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	text-align: center;
+	padding: 15px;
+	fonts-size: 70%;
+	
+}
+
+/* ========= TEXT SECTION ========  */
+
+h1 {
+	font-size: 120%;
+	color: rgb(0,0,0);	
+}
+t1 {
+	font-size: 100%;
+	color: rgb(255,255,255);
+	}
+
+p {
+
+	font-size: 120%;
+	color: rgb(0,0,0);
+}
+
+/* ========= BUTTON SECTION ========  */
+
+
+.buttons {
+   /* width: 200px; */
+	background-color: #047bbb66184250;
+	color: rgb(0,0,0);
+	font-size: 100%;
+	border-radius: 5px;
+	text-shadow: 0;	
+}
+
+.buttonNav {
+    margin:0 5px 0 0;
+    padding:5px 10px 5px 10px;
+    height:29px;
+    font-size:12px;
+    color:#262626;
+    font-weight:bold;
+    border:1px #ccc solid;
+    border-radius:5px;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
+    
+}
+.buttonNav:hover:enabled {
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #CCCCCC 100%);
+  
+}
+
+.buttonMain {
+    margin:0 5px 0 0;
+    padding:5px 10px 5px 10px;
+    height:29px;
+    font-size:12px;
+    color:#262626;
+    font-weight:bold;
+    border:1px #ccc solid;
+    border-radius:5px;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #108cd3 100%);
+   
+}
+.buttonMain:hover:enabled {
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #07517c 100%);
+  
+}
+	
+/* ========= IMAGE SECTION ========  */
+
+#logo {
+	
+	max-width:25%;
+	max-height:25%;
+	display: block; 
+	margin-left: auto; /* center position  */
+	margin-right: auto; /* center position  */
+}
+
+/* ========= TABLE SECTION ========  */
+
+.tableAuswahl {
+	width:auto; 
+    margin-left:auto; 
+    margin-right:auto;
+    border: 3px solid #000000;
+    text-align: center;
+    border-radius: 5px;
+    border-collapse: seperate;
+    border-spacing:0px;
+     
+}
+
+
+.tableAuswahlHeader {
+	text-align:center;
+   	background:none repeat scroll 0 0 #B5B5B5;
+   	border-bottom:1px solid #000000;  
+   	padding:2px;
+   	
+}
+
+.tableAuswahlFooter {
+	text-align:center;
+   	background:none repeat scroll 0 0 #B5B5B5;
+   	border-bottom:1px solid #000000;  
+   	padding:2px;
+	font-weight: bold;   	
+   	
+}
+
+.tableAuswahlOddRow {
+   text-align:center;
+   background:none repeat scroll 0 0 #FFFFFFF;	
+   
+}
+
+.tableAuswahlEvenRow {
+   text-align:center;
+   background:none repeat scroll 0 0 #D3D3D3;
+   
+}
+
+
+/* ========= INPUT TEXT SECTION ========  */
+
+.inputText {
+	width:300px; 
+	height:25px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+  	border-radius: 5px;
+}
+
+.inputText:focus {
+	
+	border-color: #339933;
+	/* Fokus auf ausgewähltes Textfeld  */
+}
+
+
+/* ========= MESSAGE SECTION ========  */
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	margin: 2px 0px;
+	padding:2px 2px 2px 5px;
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	
+}
+
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	
+}
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	
+}
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	
+}
+.error {
+
+    color: #b30009;
+    background-color: rgb(150,150,150);
+    border: 0px;
+    white-space: pre;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+
+}
+
+.kontostand {
+	
+	font-size: 120%;
+	color: rgb(0,0,0);
+}
+
+
+/* ========= DROPDOWN MENUE SECTION ========  */
+
+
+.dropDown {
+	border-radius:5px;
+	
+}
+
+/* ========= GOOGLE GRAPH SECTION ========  */
+
+.pieChart {
+	width: 600px;
+	hight: 300px;
+	margin: 0 auto;
+	border-radius:5px;
+	
+}
+
+.barChart {
+	width: 600px;
+	hight: 300px;
+	margin: 0 auto;
+	border-radius:5px;
+	
+}
+
+
